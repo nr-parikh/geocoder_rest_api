@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Geocoder API</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> 
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+  </head>
+  <body>
+    <center>
+      <table>
+        <tr>
+          <th colspan="2"><h1>Geocoder REST API</h1></th>
+        </tr>
+        <tr>
+          <td><input type="text" id="query" placeholder="Search for something..."></td>
+          <td><button id="search">Search</button></td>
+        </tr>
+        <tr>
+          <td colspan="2"> <h2><span class="position"></span></h2></td>
+        </tr>
+        <tr>
+          <td colspan="2"><p><a href="" id="url" target="_blank">Go to Map!</a></p></td>
+        </tr>
+    </table>
+  </center>
+  </body>
+</html>
