@@ -17,7 +17,7 @@ The API is a wrapper over the Google and Here's geocoding APIs. The default serv
 
 Before running the code please ensure that dependencies are being met. There are two ways to run the code:
 * Using the terminal 
-* USing the browser 
+* Using the browser 
 
 ### Using the terminal 
 
@@ -25,7 +25,7 @@ To run the code using the terminal please follow the instructions given below:
 1. Clone the repository
 2. Open the terminal 
 3. Run the Flask app using `python3 <path to repository>/app.py`.
-4. Open another terminal. Run the command `curl -i http://localhost:5000/sendRequest/California` if one wants to get position of *California*. If one wants to find the exact address for e.g. 4328 Tulane Drive, MD; run the command `curl -i http://localhost:5000/sendRequest/3424+Tulane+Drive+MD`.
+4. Open another terminal. Run the command `curl -i http://localhost:5000/sendRequest/California` if one wants to get position of *California*. If one wants to find the exact address for e.g. 3424 Tulane Drive, MD; run the command `curl -i http://localhost:5000/sendRequest/3424+Tulane+Drive+MD`.
 
 The output on the terminal should look like below.
 ```
